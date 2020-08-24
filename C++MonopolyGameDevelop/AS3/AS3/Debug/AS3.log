@@ -1,0 +1,4 @@
+﻿cl : 命令行 warning D9007: “/Gm”需要“/Zi 或 /ZI”；选项被忽略
+  Match.cpp
+Match.cpp(53): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  AS3.vcxproj -> C:\Users\KSK\Dropbox\大二下学期temp\EEE102 C++\C++AS3\project file\AS3\Debug\AS3.exe

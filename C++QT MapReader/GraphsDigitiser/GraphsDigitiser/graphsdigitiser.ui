@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GraphsDigitiser</class>
+ <widget class="QDialog" name="GraphsDigitiser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>714</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>714</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>GraphDigister</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,0">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="Load_file">
+       <property name="text">
+        <string>Load graph</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Calibrate">
+       <property name="text">
+        <string>Calibrate</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Get_point">
+       <property name="text">
+        <string>Get Point</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Mode_select">
+       <property name="text">
+        <string>Mode:linear/linear</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="Mode">
+       <property name="text">
+        <string>Mode:linear/linear</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="Mode_2">
+       <property name="text">
+        <string>Mode:linear/log</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="Mode_3">
+       <property name="text">
+        <string>Mode:log/linear</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="Mode_4">
+       <property name="text">
+        <string>Mode:log/log</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="Mode_select_list">
+       <item>
+        <property name="text">
+         <string>Mode: linear/linear</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mode: linear/log</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mode: log/linear</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mode: log/log</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Auto_get_point">
+       <property name="text">
+        <string>Auto get point</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Export">
+       <property name="text">
+        <string>finish and export points</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="yvalue">
+       <property name="text">
+        <string>X:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLCDNumber" name="lcdNumber"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="xvalue">
+       <property name="text">
+        <string>Y:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLCDNumber" name="lcdNumber_2"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
